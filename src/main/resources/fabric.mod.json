@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "lambda-meteor-utilities",
+  "version": "${version}",
+  "name": "Lambda's Utilities",
+  "description": "Collection of meteor client modules and HUD options",
+  "authors": [
+    "lambda505"
+  ],
+  "contact": {
+    "repo": "https://github.com/lambda505/lambda-meteor-utilities"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.lambda505.meteorutils.LambdaUtilities"
+    ]
+  },
+  "custom": {
+    "meteor-client:color": "255,51,127"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["${mc_version}"],
+    "meteor-client": "*"
+  }
+}
