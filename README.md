@@ -5,7 +5,12 @@ Meteor Client addon for 1.21.4. Requires Meteor Client installed.
 Primarily made for 2b2t.
 
 ## Modules
-None yet.
+
+### Chat Coord Logger
+Logs coordinate leaks found in chat messages to server-specific files.
+
+### Private Message Archiver
+Archives private messages/discussions in separate files per player. Supports all PM commands (/tell, /whisper, /msg, /reply, etc).
 
 ## HUD Elements
 
@@ -25,8 +30,8 @@ Displays nearby players within configurable distance.
 
 ## Build
 ```bash
-git clone https://github.com/lambda505/lambda-meteor-utilities.git
-cd lambda-meteor-utilities
+git clone https://github.com/lambda505/lambda-meteor-utilities-private.git
+cd lambda-meteor-utilities-private
 ./gradlew build
 ```
 
